@@ -4,8 +4,8 @@ entrypoint: streamlit run app.py
 instance_class: F2
 
 env_variables:
-  TERRAKIL_API_KEY: "your-api-key-here"
+  SENDGRID_API_KEY: "mlsn.104361d5c712e4fe125e6c438865279731790eb9d6764e26479090be11823a87"  # Your SendGrid API Key
 
 handlers:
-- url: /.*
+- url: /.*  # Handle all routes with Streamlit
   script: auto
