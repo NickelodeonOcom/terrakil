@@ -8,7 +8,7 @@ from sendgrid.helpers.mail import Mail, Email, To, Content
 client = Client()
 
 # Get the SendGrid API Key from environment variables
-SENDGRID_API_KEY = os.getenv("SENDGRID_API_KEY")
+SENDGRID_API_KEY = "mlsn.104361d5c712e4fe125e6c438865279731790eb9d6764e26479090be11823a87"
 sg = sendgrid.SendGridAPIClient(api_key=SENDGRID_API_KEY)
 
 # Setting page configuration
